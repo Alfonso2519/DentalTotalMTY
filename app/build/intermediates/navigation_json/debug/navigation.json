@@ -1,0 +1,17 @@
+[
+  {
+    "name": "nav_auth",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "nav_doctor",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "nav_paciente",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  }
+]

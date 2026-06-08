@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipeRefresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+        android:background="@color/background_main">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Header redondeado inferior -->
+            <FrameLayout android:layout_width="match_parent" android:layout_height="220dp">
+                <View android:layout_width="match_parent" android:layout_height="match_parent"
+                    android:background="@drawable/bg_header_rounded"/>
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                    android:orientation="vertical" android:paddingStart="24dp" android:paddingEnd="24dp"
+                    android:paddingTop="36dp" android:paddingBottom="24dp">
+
+                    <!-- Saludo + avatar -->
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:gravity="center_vertical">
+                        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:orientation="vertical">
+                            <TextView android:id="@+id/tvGreeting"
+                                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="¡Hola," android:textColor="#CCffffff" android:textSize="14sp"/>
+                            <TextView android:id="@+id/tvUserName"
+                                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Paciente!" android:textColor="@color/white"
+                                android:textSize="22sp" android:textStyle="bold"/>
+                        </LinearLayout>
+                        <FrameLayout android:layout_width="46dp" android:layout_height="46dp"
+                            android:background="@drawable/bg_avatar_circle">
+                            <ImageView android:id="@+id/ivAvatar"
+                                android:layout_width="26dp" android:layout_height="26dp"
+                                android:layout_gravity="center"
+                                android:src="@android:drawable/ic_menu_myplaces"
+                                android:tint="@color/white" android:contentDescription="Avatar"/>
+                        </FrameLayout>
+                    </LinearLayout>
+
+                    <!-- Mini banner próxima cita -->
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:background="@drawable/bg_avatar_circle" android:layout_marginTop="14dp"
+                        android:padding="14dp" android:orientation="horizontal"
+                        android:gravity="center_vertical">
+                        <FrameLayout android:layout_width="34dp" android:layout_height="34dp"
+                            android:background="@drawable/bg_button_primary">
+                            <ImageView android:layout_width="18dp" android:layout_height="18dp"
+                                android:layout_gravity="center"
+                                android:src="@android:drawable/ic_menu_agenda"
+                                android:tint="@color/white" android:contentDescription="Cita"/>
+                        </FrameLayout>
+                        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:orientation="vertical"
+                            android:layout_marginStart="12dp">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Próxima cita" android:textColor="#CCffffff" android:textSize="11sp"/>
+                            <TextView android:id="@+id/tvProximaCita"
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:text="Sin citas próximas"
+                                android:textColor="@color/white" android:textSize="13sp"
+                                android:textStyle="bold"
+                                android:maxLines="2" android:ellipsize="end"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+
+            <!-- Contenido principal -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="vertical" android:padding="20dp">
+
+                <!-- CTA principal -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnNuevaCita"
+                    android:layout_width="match_parent" android:layout_height="56dp"
+                    android:text="＋  Agendar Nueva Cita"
+                    android:textSize="16sp" android:textStyle="bold"
+                    android:layout_marginBottom="24dp"
+                    style="@style/DentalButton.Primary"/>
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Accesos rápidos" android:textSize="18sp" android:textStyle="bold"
+                    android:textColor="@color/text_primary" android:layout_marginBottom="14dp"/>
+
+                <!-- Grid 2x2 con cards de colores -->
+                <GridLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:columnCount="2" android:useDefaultMargins="false">
+
+                    <androidx.cardview.widget.CardView android:id="@+id/cardMisCitas"
+                        android:layout_width="0dp" android:layout_height="104dp"
+                        android:layout_columnWeight="1" android:layout_margin="5dp"
+                        app:cardCornerRadius="20dp" app:cardElevation="4dp"
+                        app:cardBackgroundColor="@color/cyan_extra_light">
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                            android:orientation="vertical" android:gravity="center" android:padding="10dp">
+                            <FrameLayout android:layout_width="42dp" android:layout_height="42dp"
+                                android:background="@drawable/bg_step_circle">
+                                <ImageView android:layout_width="22dp" android:layout_height="22dp"
+                                    android:layout_gravity="center"
+                                    android:src="@android:drawable/ic_menu_agenda"
+                                    android:tint="@color/white" android:contentDescription="Citas"/>
+                            </FrameLayout>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Mis Citas" android:textColor="@color/cyan_dark"
+                                android:textStyle="bold" android:textSize="13sp" android:layout_marginTop="8dp"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView android:id="@+id/cardHistorial"
+                        android:layout_width="0dp" android:layout_height="104dp"
+                        android:layout_columnWeight="1" android:layout_margin="5dp"
+                        app:cardCornerRadius="20dp" app:cardElevation="4dp"
+                        app:cardBackgroundColor="#E8F5E9">
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                            android:orientation="vertical" android:gravity="center" android:padding="10dp">
+                            <FrameLayout android:layout_width="42dp" android:layout_height="42dp">
+                                <View android:layout_width="match_parent" android:layout_height="match_parent"
+                                    android:background="@drawable/bg_step_circle"/>
+                                <View android:layout_width="match_parent" android:layout_height="match_parent"
+                                    android:background="#33006064"/>
+                                <ImageView android:layout_width="22dp" android:layout_height="22dp"
+                                    android:layout_gravity="center"
+                                    android:src="@android:drawable/ic_menu_recent_history"
+                                    android:tint="@color/white" android:contentDescription="Historial"/>
+                            </FrameLayout>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Historial" android:textColor="#2E7D32"
+                                android:textStyle="bold" android:textSize="13sp" android:layout_marginTop="8dp"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView android:id="@+id/cardInfo"
+                        android:layout_width="0dp" android:layout_height="104dp"
+                        android:layout_columnWeight="1" android:layout_margin="5dp"
+                        app:cardCornerRadius="20dp" app:cardElevation="4dp"
+                        app:cardBackgroundColor="#FFF3E0">
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                            android:orientation="vertical" android:gravity="center" android:padding="10dp">
+                            <FrameLayout android:layout_width="42dp" android:layout_height="42dp">
+                                <View android:layout_width="match_parent" android:layout_height="match_parent"
+                                    android:background="@drawable/bg_step_circle"/>
+                                <View android:layout_width="match_parent" android:layout_height="match_parent"
+                                    android:background="#33E65100"/>
+                                <ImageView android:layout_width="22dp" android:layout_height="22dp"
+                                    android:layout_gravity="center"
+                                    android:src="@android:drawable/ic_menu_info_details"
+                                    android:tint="@color/white" android:contentDescription="Info"/>
+                            </FrameLayout>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Consultorio" android:textColor="#E65100"
+                                android:textStyle="bold" android:textSize="13sp" android:layout_marginTop="8dp"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView android:id="@+id/cardPerfil"
+                        android:layout_width="0dp" android:layout_height="104dp"
+                        android:layout_columnWeight="1" android:layout_margin="5dp"
+                        app:cardCornerRadius="20dp" app:cardElevation="4dp"
+                        app:cardBackgroundColor="#F3E5F5">
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                            android:orientation="vertical" android:gravity="center" android:padding="10dp">
+                            <FrameLayout android:layout_width="42dp" android:layout_height="42dp">
+                                <View android:layout_width="match_parent" android:layout_height="match_parent"
+                                    android:background="@drawable/bg_step_circle"/>
+                                <View android:layout_width="match_parent" android:layout_height="match_parent"
+                                    android:background="#336A1B9A"/>
+                                <ImageView android:layout_width="22dp" android:layout_height="22dp"
+                                    android:layout_gravity="center"
+                                    android:src="@android:drawable/ic_menu_myplaces"
+                                    android:tint="@color/white" android:contentDescription="Perfil"/>
+                            </FrameLayout>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Mi Perfil" android:textColor="#6A1B9A"
+                                android:textStyle="bold" android:textSize="13sp" android:layout_marginTop="8dp"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </GridLayout>
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_vertical"
+                    android:layout_marginTop="24dp" android:layout_marginBottom="12dp">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:text="Próximas citas"
+                        android:textSize="18sp" android:textStyle="bold" android:textColor="@color/text_primary"/>
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView android:id="@+id/rvCitasProximas"
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:nestedScrollingEnabled="false"/>
+
+                <TextView android:id="@+id/tvNoCitas"
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:text="No tienes citas próximas.\n¡Agenda tu primera cita!"
+                    android:textColor="@color/text_secondary" android:textSize="14sp"
+                    android:gravity="center" android:padding="28dp" android:visibility="gone"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

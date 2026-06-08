@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "268030291862",
+    "project_id": "dentaltotalmty-b998a",
+    "storage_bucket": "dentaltotalmty-b998a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268030291862:android:f6352695570afeb28bb7b7",
+        "android_client_info": {
+          "package_name": "com.dental.totalmty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268030291862-cq94qsr3rpvajudsdr3im3jgg2r6qecq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dental.totalmty",
+            "certificate_hash": "63ed37233b0bcd30e44929cbaf078dbad17695d9"
+          }
+        },
+        {
+          "client_id": "268030291862-r4uutp9d9of1r8umkd94bn3np35r632f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZvkzC9usnB6q9xhXDFxzk_5uVT_FnKO4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268030291862-r4uutp9d9of1r8umkd94bn3np35r632f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

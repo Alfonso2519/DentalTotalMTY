@@ -1,0 +1,6 @@
+com.dental.totalmty.test.app-annotation-experimental-1.3.0-0 C:\Users\ponch\.gradle\caches\transforms-3\2b63cf391b204fac14e039aa9d447427\transformed\annotation-experimental-1.3.0\res
+com.dental.totalmty.test.app-core-1.5.0-1 C:\Users\ponch\.gradle\caches\transforms-3\e28ccefe046b38998fc8cac60550863b\transformed\core-1.5.0\res
+com.dental.totalmty.test.app-androidTest-2 C:\Users\ponch\Desktop\DentalTotalMTYv30\app\build\generated\res\resValues\androidTest\debug
+com.dental.totalmty.test.app-mergeDebugAndroidTestResources-3 C:\Users\ponch\Desktop\DentalTotalMTYv30\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.dental.totalmty.test.app-mergeDebugAndroidTestResources-4 C:\Users\ponch\Desktop\DentalTotalMTYv30\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.dental.totalmty.test.app-merged_res-5 C:\Users\ponch\Desktop\DentalTotalMTYv30\app\build\intermediates\merged_res\debugAndroidTest

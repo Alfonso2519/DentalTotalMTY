@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DentalTotalMTY</string>
+    <string name="app_tagline">Tu salud dental, nuestra prioridad</string>
+
+    <!-- Auth -->
+    <string name="login_title">Bienvenido</string>
+    <string name="login_subtitle">Inicia sesión para continuar</string>
+    <string name="email_hint">Correo electrónico</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="btn_login">Iniciar Sesión</string>
+    <string name="btn_google">Continuar con Google</string>
+    <string name="no_account">¿No tienes cuenta? Regístrate</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="register_title">Crear Cuenta</string>
+    <string name="name_hint">Nombre completo</string>
+    <string name="phone_hint">Teléfono</string>
+    <string name="btn_register">Crear Cuenta</string>
+    <string name="have_account">¿Ya tienes cuenta? Inicia sesión</string>
+
+    <!-- Mensajes -->
+    <string name="login_success">¡Bienvenido de vuelta!</string>
+    <string name="register_success">¡Cuenta creada exitosamente!</string>
+    <string name="appointment_success">¡Cita agendada correctamente!</string>
+    <string name="appointment_cancelled">Cita cancelada</string>
+    <string name="error_login">Error al iniciar sesión. Verifica tus datos.</string>
+    <string name="error_fields">Por favor completa todos los campos</string>
+    <string name="error_email">Ingresa un correo válido</string>
+    <string name="error_password">La contraseña debe tener al menos 6 caracteres</string>
+
+    <!-- Navegación paciente -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_appointment">Citas</string>
+    <string name="nav_history">Historial</string>
+    <string name="nav_profile">Perfil</string>
+    <string name="nav_info">Info</string>
+
+    <!-- Citas -->
+    <string name="new_appointment">Nueva Cita</string>
+    <string name="select_date">Selecciona una fecha</string>
+    <string name="select_time">Selecciona un horario</string>
+    <string name="select_service">Selecciona el servicio</string>
+    <string name="available">Disponible</string>
+    <string name="occupied">Ocupado</string>
+    <string name="confirm_appointment">Confirmar Cita</string>
+    <string name="cancel_appointment">Cancelar Cita</string>
+    <string name="swipe_to_cancel">Desliza hacia la izquierda para cancelar</string>
+
+    <!-- Servicios -->
+    <string name="service_limpieza">Limpieza dental</string>
+    <string name="service_extraccion">Extracción</string>
+    <string name="service_ortodoncia">Ortodoncia</string>
+    <string name="service_blanqueamiento">Blanqueamiento</string>
+    <string name="service_relleno">Relleno / Empaste</string>
+    <string name="service_radiografia">Radiografía</string>
+    <string name="service_consulta">Consulta general</string>
+
+    <!-- Doctor -->
+    <string name="doctor_panel">Panel del Doctor</string>
+    <string name="today_appointments">Citas de Hoy</string>
+    <string name="all_appointments">Todas las Citas</string>
+    <string name="patients_list">Pacientes</string>
+
+    <!-- Info negocio -->
+    <string name="business_name">DentalTotalMTY</string>
+    <string name="business_address">Monterrey, Nuevo León, México</string>
+    <string name="business_phone">+52 81 1234 5678</string>
+    <string name="business_hours">Lunes a Viernes: 9:00 - 18:00\nSábados: 9:00 - 14:00</string>
+    <string name="business_email">contacto@dentaltotalmty.com</string>
+
+
+    <!-- Google Client ID -->
+    <string name="default_web_client_id">
+    268030291862-r4uutp9d9of1r8umkd94bn3np35r632f.apps.googleusercontent.com
+    </string>
+
+
+</resources>
+
+

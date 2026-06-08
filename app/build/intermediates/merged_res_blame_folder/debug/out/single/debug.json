@@ -1,0 +1,230 @@
+[
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/anim_slide_up.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/anim/slide_up.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/layout_fragment_info_consultorio.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/layout/fragment_info_consultorio.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.dental.totalmty.app-main-69:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/menu_bottom_nav_doctor.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/menu/bottom_nav_doctor.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.dental.totalmty.app-main-69:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/layout_item_dropdown_servicio.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/layout/item_dropdown_servicio.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/drawable_bg_chip_rounded.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/drawable/bg_chip_rounded.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/layout_fragment_doctor_dashboard.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/layout/fragment_doctor_dashboard.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/drawable_bg_slot_available.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/drawable/bg_slot_available.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/layout_fragment_login.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/layout_fragment_pacientes.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/layout/fragment_pacientes.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/layout_activity_main.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/menu_bottom_nav_patient.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/menu/bottom_nav_patient.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/layout_activity_auth.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/layout/activity_auth.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.dental.totalmty.app-main-69:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/layout_activity_splash.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/layout_fragment_citas_paciente.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/layout/fragment_citas_paciente.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.dental.totalmty.app-main-69:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.dental.totalmty.app-main-69:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/layout_item_cita.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/layout/item_cita.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/drawable_bg_gradient_primary.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/drawable/bg_gradient_primary.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/drawable_bg_header_rounded.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/drawable/bg_header_rounded.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/layout_activity_doctor.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/layout/activity_doctor.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/drawable_bg_slot_selected.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/drawable/bg_slot_selected.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/layout_fragment_perfil.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/layout/fragment_perfil.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/navigation_nav_auth.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/navigation/nav_auth.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/drawable_bg_avatar_cyan.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/drawable/bg_avatar_cyan.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/layout_fragment_forgot_password.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/layout/fragment_forgot_password.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/layout_fragment_nueva_cita.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/layout/fragment_nueva_cita.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/drawable_bg_wave_bottom.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/drawable/bg_wave_bottom.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/layout_fragment_register.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/layout/fragment_register.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/anim_slide_out_left.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/drawable_bg_header_navy_rounded.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/drawable/bg_header_navy_rounded.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/anim_button_press.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/anim/button_press.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/anim_slide_in_left.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/anim/slide_in_left.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/navigation_nav_doctor.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/navigation/nav_doctor.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.dental.totalmty.app-main-69:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.dental.totalmty.app-main-69:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/drawable_bg_slot_occupied.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/drawable/bg_slot_occupied.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/layout_fragment_doctor_agenda.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/layout/fragment_doctor_agenda.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.dental.totalmty.app-main-69:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/drawable_bg_gradient_navy.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/drawable/bg_gradient_navy.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/layout_fragment_historial.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/layout/fragment_historial.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.dental.totalmty.app-main-69:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/anim_slide_in_right.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/anim_fade_in.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/anim/fade_in.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/drawable_bg_step_circle.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/drawable/bg_step_circle.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/drawable_bg_stat_card.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/drawable/bg_stat_card.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/drawable_bg_button_primary.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/drawable/bg_button_primary.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/drawable_bg_avatar_circle.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/drawable/bg_avatar_circle.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/navigation_nav_paciente.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/navigation/nav_paciente.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/drawable_bg_card_white.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/drawable/bg_card_white.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/layout_fragment_doctor_settings.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/layout/fragment_doctor_settings.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.dental.totalmty.app-main-69:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/layout_fragment_home.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/anim_fade_out.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/anim/fade_out.xml"
+    },
+    {
+        "merged": "com.dental.totalmty.app-merged_res-67:/color_bottom_nav_color.xml.flat",
+        "source": "com.dental.totalmty.app-main-69:/color/bottom_nav_color.xml"
+    }
+]

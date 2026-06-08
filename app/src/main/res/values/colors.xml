@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ── Primarios ── -->
+    <color name="cyan_primary">#00BCD4</color>
+    <color name="cyan_light">#4DD0E1</color>
+    <color name="cyan_dark">#0097A7</color>
+    <color name="cyan_extra_light">#E0F7FA</color>
+
+    <!-- ── Navy (alias usados en themes) ── -->
+    <color name="navy_primary">#1A237E</color>
+    <color name="navy_mid">#283593</color>
+    <color name="navy_dark">#1A237E</color>
+    <color name="navy_medium">#283593</color>
+    <color name="navy_light">#3949AB</color>
+
+    <!-- ── Neutros ── -->
+    <color name="white">#FFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="white_soft">#F8FFFE</color>
+    <color name="gray_light">#ECEFF1</color>
+    <color name="gray_medium">#90A4AE</color>
+    <color name="gray_dark">#546E7A</color>
+    <color name="text_primary">#1C2B3A</color>
+    <color name="text_secondary">#607D8B</color>
+    <color name="background">#F0FBFC</color>
+    <color name="background_main">#F0FBFC</color>
+    <color name="surface_card">#FFFFFF</color>
+
+    <!-- ── Slots de horario ── -->
+    <color name="slot_available">#4CAF50</color>
+    <color name="slot_available_light">#E8F5E9</color>
+    <color name="slot_occupied">#B0BEC5</color>
+    <color name="slot_occupied_light">#ECEFF1</color>
+    <color name="slot_selected">#00BCD4</color>
+
+    <!-- ── Estados de citas ── -->
+    <color name="status_pending">#FF9800</color>
+    <color name="status_confirmed">#4CAF50</color>
+    <color name="status_cancelled">#F44336</color>
+    <color name="status_completed">#2196F3</color>
+    <color name="status_pending_bg">#FFF3E0</color>
+    <color name="status_confirmed_bg">#E8F5E9</color>
+    <color name="status_cancelled_bg">#FFEBEE</color>
+    <color name="status_completed_bg">#E3F2FD</color>
+
+    <!-- ── Sistema ── -->
+    <color name="error_red">#F44336</color>
+    <color name="success_green">#4CAF50</color>
+    <color name="nav_selected">#00BCD4</color>
+    <color name="nav_unselected">#90A4AE</color>
+    <!-- slot text colors (usados en NuevaCitaFragment) -->
+    <color name="slot_available_text">#2E7D32</color>
+    <color name="slot_occupied_text">#90A4AE</color>
+</resources>

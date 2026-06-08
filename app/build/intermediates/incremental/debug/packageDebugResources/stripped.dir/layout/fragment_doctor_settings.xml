@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_main">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header -->
+        <FrameLayout android:layout_width="match_parent" android:layout_height="130dp">
+            <View android:layout_width="match_parent" android:layout_height="match_parent"
+                android:background="@drawable/bg_header_navy_rounded"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                android:orientation="vertical" android:gravity="center_vertical"
+                android:paddingStart="24dp" android:paddingTop="24dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Configuración" android:textColor="@color/white"
+                    android:textSize="24sp" android:textStyle="bold"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Gestionar horarios bloqueados"
+                    android:textColor="#99FFFFFF" android:textSize="12sp" android:layout_marginTop="3dp"/>
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:padding="16dp">
+
+            <!-- Card: Bloquear hora -->
+            <androidx.cardview.widget.CardView android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_marginBottom="14dp"
+                app:cardCornerRadius="18dp" app:cardElevation="4dp" app:cardBackgroundColor="@color/white">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:padding="18dp">
+
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="🔒 Bloquear hora" android:textSize="16sp" android:textStyle="bold"
+                        android:textColor="@color/text_primary" android:layout_marginBottom="14dp"/>
+
+                    <TextView android:id="@+id/tvFechaBloqueo"
+                        android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:text="Toca para seleccionar fecha"
+                        android:textColor="@color/text_secondary" android:textSize="14sp"
+                        android:layout_marginBottom="10dp"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnSeleccionarFechaBloqueo"
+                        android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:minHeight="52dp"
+                        android:text="📅 Seleccionar Fecha"
+                        android:textSize="14sp"
+                        style="@style/DentalButton.Outline"
+                        android:layout_marginBottom="14dp"/>
+
+                    <!-- Slots del día -->
+                    <com.google.android.flexbox.FlexboxLayout
+                        android:id="@+id/flexboxSlotsBloqueo"
+                        android:layout_width="match_parent" android:layout_height="wrap_content"
+                        app:flexWrap="wrap" app:alignItems="flex_start"
+                        android:layout_marginBottom="14dp"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnBloquear"
+                        android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:minHeight="52dp"
+                        android:text="🔒 Bloquear Hora"
+                        android:textSize="14sp"
+                        style="@style/DentalButton.Navy"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Card: Bloquear día completo -->
+            <androidx.cardview.widget.CardView android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_marginBottom="14dp"
+                app:cardCornerRadius="18dp" app:cardElevation="4dp" app:cardBackgroundColor="@color/white">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:padding="18dp">
+
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="📅 Bloquear / Cancelar día completo" android:textSize="16sp" android:textStyle="bold"
+                        android:textColor="@color/text_primary" android:layout_marginBottom="6dp"/>
+
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Bloquea o desbloquea todas las horas de un día de un solo toque"
+                        android:textColor="@color/text_secondary" android:textSize="12sp"
+                        android:layout_marginBottom="14dp"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnBloquearDia"
+                        android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:minHeight="52dp"
+                        android:text="📅 Bloquear / Cancelar Día"
+                        android:textSize="14sp"
+                        style="@style/DentalButton.Outline"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Card: Bloqueos activos -->
+            <androidx.cardview.widget.CardView android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_marginBottom="80dp"
+                app:cardCornerRadius="18dp" app:cardElevation="4dp" app:cardBackgroundColor="@color/white">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:padding="18dp">
+
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Horas bloqueadas activas" android:textSize="16sp" android:textStyle="bold"
+                        android:textColor="@color/text_primary" android:layout_marginBottom="6dp"/>
+
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Toca una para desbloquearla"
+                        android:textColor="@color/text_secondary" android:textSize="12sp"
+                        android:layout_marginBottom="12dp"/>
+
+                    <TextView android:id="@+id/tvBloqueosVacios"
+                        android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:text="No hay horas bloqueadas"
+                        android:textColor="@color/text_secondary" android:gravity="center"
+                        android:padding="20dp" android:visibility="visible"/>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rvBloqueos"
+                        android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:visibility="gone" android:nestedScrollingEnabled="false"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

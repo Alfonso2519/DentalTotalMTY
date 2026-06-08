@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_paciente"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.dental.totalmty.ui.paciente.HomeFragment"
+        android:label="Inicio">
+        <action
+            android:id="@+id/action_homeFragment_to_nuevaCitaFragment"
+            app:destination="@id/nuevaCitaFragment"
+            app:enterAnim="@anim/slide_up"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out_left"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_appointment"
+        android:name="com.dental.totalmty.ui.paciente.CitasPacienteFragment"
+        android:label="Citas">
+        <action
+            android:id="@+id/action_citas_to_nueva"
+            app:destination="@id/nuevaCitaFragment"
+            app:enterAnim="@anim/slide_up"
+            app:exitAnim="@anim/fade_out"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.dental.totalmty.ui.paciente.HistorialFragment"
+        android:label="Historial"/>
+
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="com.dental.totalmty.ui.paciente.InfoConsultorioFragment"
+        android:label="Consultorio"/>
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.dental.totalmty.ui.paciente.PerfilFragment"
+        android:label="Mi Perfil"/>
+
+    <fragment
+        android:id="@+id/nuevaCitaFragment"
+        android:name="com.dental.totalmty.ui.paciente.NuevaCitaFragment"
+        android:label="Nueva Cita"/>
+
+</navigation>

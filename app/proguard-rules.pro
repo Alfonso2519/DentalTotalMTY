@@ -1,0 +1,3 @@
+-keep class com.dental.totalmty.data.model.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*

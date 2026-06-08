@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/background_main">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header -->
+        <FrameLayout android:layout_width="match_parent" android:layout_height="160dp">
+            <View android:layout_width="match_parent" android:layout_height="match_parent"
+                android:background="@drawable/bg_header_rounded"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                android:orientation="horizontal" android:gravity="center_vertical"
+                android:paddingStart="12dp" android:paddingEnd="24dp" android:paddingTop="28dp">
+                <ImageButton android:id="@+id/btnBack"
+                    android:layout_width="44dp" android:layout_height="44dp"
+                    android:src="@android:drawable/ic_media_previous"
+                    android:background="@drawable/bg_avatar_circle"
+                    android:tint="@color/white" android:contentDescription="Regresar"/>
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:text="Crear Cuenta"
+                    android:textColor="@color/white" android:textSize="22sp"
+                    android:textStyle="bold" android:gravity="center"/>
+                <View android:layout_width="44dp" android:layout_height="44dp"/>
+            </LinearLayout>
+        </FrameLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginStart="20dp" android:layout_marginEnd="20dp"
+            android:layout_marginTop="-20dp"
+            app:cardCornerRadius="24dp" app:cardElevation="14dp"
+            app:cardBackgroundColor="@color/white">
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="vertical" android:padding="28dp">
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Tus datos" android:textSize="22sp" android:textStyle="bold"
+                    android:textColor="@color/text_primary" android:layout_marginBottom="20dp"/>
+
+                <com.google.android.material.textfield.TextInputLayout android:id="@+id/tilNombre"
+                    style="@style/DentalInputLayout" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:hint="@string/name_hint"
+                    app:startIconDrawable="@android:drawable/ic_menu_myplaces"
+                    app:startIconTint="@color/cyan_primary">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/etNombre"
+                        android:layout_width="match_parent"
+                        android:textColor="#1C2B3A" android:layout_height="wrap_content"
+                        android:inputType="textPersonName" android:imeOptions="actionNext"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout android:id="@+id/tilTelefono"
+                    style="@style/DentalInputLayout" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:hint="@string/phone_hint"
+                    android:layout_marginTop="14dp"
+                    app:startIconDrawable="@android:drawable/ic_menu_call"
+                    app:startIconTint="@color/cyan_primary">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/etTelefono"
+                        android:layout_width="match_parent"
+                        android:textColor="#1C2B3A" android:layout_height="wrap_content"
+                        android:inputType="phone" android:imeOptions="actionNext"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout android:id="@+id/tilEmail"
+                    style="@style/DentalInputLayout" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:hint="@string/email_hint"
+                    android:layout_marginTop="14dp"
+                    app:startIconDrawable="@android:drawable/ic_dialog_email"
+                    app:startIconTint="@color/cyan_primary">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/etEmail"
+                        android:layout_width="match_parent"
+                        android:textColor="#1C2B3A" android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress" android:imeOptions="actionNext"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout android:id="@+id/tilPassword"
+                    style="@style/DentalInputLayout" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:hint="@string/password_hint"
+                    android:layout_marginTop="14dp"
+                    app:startIconDrawable="@android:drawable/ic_lock_lock"
+                    app:startIconTint="@color/cyan_primary" app:passwordToggleEnabled="true">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/etPassword"
+                        android:layout_width="match_parent"
+                        android:textColor="#1C2B3A" android:layout_height="wrap_content"
+                        android:inputType="textPassword" android:imeOptions="actionNext"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout android:id="@+id/tilConfirmPassword"
+                    style="@style/DentalInputLayout" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:hint="Confirmar contraseña"
+                    android:layout_marginTop="14dp"
+                    app:startIconDrawable="@android:drawable/ic_lock_lock"
+                    app:startIconTint="@color/cyan_primary" app:passwordToggleEnabled="true">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/etConfirmPassword"
+                        android:layout_width="match_parent"
+                        android:textColor="#1C2B3A" android:layout_height="wrap_content"
+                        android:inputType="textPassword" android:imeOptions="actionDone"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView android:id="@+id/tvError"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:textColor="@color/error_red" android:textSize="13sp"
+                    android:layout_marginTop="8dp" android:visibility="gone"/>
+
+                <com.google.android.material.button.MaterialButton android:id="@+id/btnRegister"
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:minHeight="52dp"
+                    android:text="@string/btn_register" android:textSize="16sp"
+                    android:textStyle="bold" android:layout_marginTop="24dp"
+                    style="@style/DentalButton.Primary"/>
+
+                <TextView android:id="@+id/tvLogin"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="@string/have_account" android:textColor="@color/cyan_dark"
+                    android:textSize="14sp" android:layout_marginTop="16dp"
+                    android:layout_gravity="center" android:clickable="true" android:focusable="true"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/progressBar" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="16dp"
+            android:layout_marginStart="20dp" android:layout_marginEnd="20dp"
+            android:visibility="gone"
+            app:indicatorColor="@color/cyan_primary" app:trackColor="@color/cyan_extra_light"/>
+
+        <View android:layout_width="match_parent" android:layout_height="32dp"/>
+    </LinearLayout>
+</ScrollView>
