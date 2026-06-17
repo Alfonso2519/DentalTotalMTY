@@ -27,7 +27,7 @@ Configuración de cuenta.
 Generales
 
 
-Notificaciones push (Firebase Cloud Messaging) para recordatorios de citas.
+Integración con Firebase Cloud Messaging para notificaciones push de recordatorio de citas (implementada a nivel de código; pendiente de pruebas end-to-end en dispositivo).
 Recuperación de contraseña.
 Sesión persistente entre usos de la app.
 
@@ -51,7 +51,7 @@ La navegación usa el componente Navigation de Android con grafos separados para
 
 Tecnologías
 
-CategoríaTecnologíaLenguajeKotlinUIAndroid Views, Navigation Component, FragmentsBackend / Base de datosFirebase Authentication, Cloud FirestoreNotificacionesFirebase Cloud MessagingConcurrenciaKotlin CoroutinesMin SDK / Target SDK26 / 34
+CategoríaTecnologíaLenguajeKotlinUIAndroid Views, Navigation Component, FragmentsBackend / Base de datosFirebase Authentication, Cloud FirestoreNotificacionesFirebase Cloud Messaging (implementado, sin pruebas end-to-end)ConcurrenciaKotlin CoroutinesMin SDK / Target SDK26 / 34
 
 Configuración local
 
